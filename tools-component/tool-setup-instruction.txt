@@ -1,0 +1,17 @@
+  git config --global user.email "contactme.mohan@gmail.com"
+  git config --global user.name "Mohan Poddar"
+
+
+C:\Users\winuser\Documents\python>python -m venv virtualenv_backup
+
+C:\Users\winuser\Documents\python>virtualenv_backup\Scripts\activate.bat
+
+(virtualenv_backup) Z:\mohan-ji-HP-8-apr-12\Mohan_Data\RHEL\Linux\Automation\Python\pythontools-for-backup>
+
+
+#################################
+Next Action:
+(a) Do with space in source dir
+(b) Backup should be zipped
+(c) Backup/programme should be stopped after 30 days.
+    (i) What about the code?

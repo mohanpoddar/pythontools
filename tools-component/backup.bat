@@ -1,0 +1,2 @@
+@echo off
+cmd /k "cd /d C:\Users\winuser\Documents\python\virtualenv_backup\Scripts & activate & cd /d Z:\mohan-ji-HP-8-apr-12\Mohan_Data\RHEL\Linux\Automation\Python\pythontools-for-backup\pythontools_backup & python backuppy.py -s "C:/tally erp/data" -d C:/tally_backup/data & exit" 
