@@ -50,7 +50,7 @@ def data_backup(src,dest):
 
     shutil.make_archive(dest+'_'+timestamp,'zip', dest)
 
-    time.sleep(10)
+    #time.sleep(10)
 
     shutil.rmtree(dest)
 

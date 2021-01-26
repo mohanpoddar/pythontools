@@ -1,0 +1,54 @@
+
+#####################################
+Final_v01 : 24012021
+1st time Setup
+
+# Extract Source backup location
+Example:
+c:\tally erp
+
+# Create Destination backup location
+Example:
+C:\tally_backup
+
+mkdir C:\tally_backup
+
+# Create Directory
+# Go to command prompt.
+mkdir C:\Windows\System32\tools
+mkdir C:\Windows\System32\tools\python
+mkdir C:\Windows\System32\tools\python\backup
+
+# Copy your backuppy.py into C:\Windows\System32\tools\python\backup by GUI
+
+# Go To Directory
+cd C:\Windows\System32\tools\python\backup
+
+# Create new virtual environment virtualenv_backup
+C:\Windows\System32\tools\python\backup> python -m venv virtualenv_backup
+
+C:\Windows\System32\tools\python\backup> dir
+
+
+
+#################
+Manual Run for Backup
+# Run your programme
+# Ensure your are in C:\Windows\System32\tools\python\backup 
+# If not go by running command - cd C:\Windows\System32\tools\python\backup 
+
+# Go to C:\Windows\System32\tools\python\backup
+cd C:\Windows\System32\tools\python\backup
+
+# Activate the Virtuial Envirnment
+C:\Windows\System32\tools\python\backup> virtualenv_backup\Scripts\activate.bat
+
+# Now finally take backup
+# Example: python backuppy.py -s "<Source Directory path>" -d <Destination Directory Path>/<Disered File Name>
+
+(virtualenv_backup) C:\Windows\System32\tools\python\backup> python backuppy.py -s "C:/tally erp/data" -d C:/tally_backup/data
+
+
+
+
+
