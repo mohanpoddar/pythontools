@@ -15,8 +15,6 @@ mkdir C:\tally_backup
 
 # Create Directory
 # Go to command prompt.
-mkdir C:\Windows\System32\tools
-mkdir C:\Windows\System32\tools\python
 mkdir C:\Windows\System32\tools\python\backup
 
 # Copy your backuppy.exe into C:\Windows\System32\tools\python\backup by GUI
@@ -48,7 +46,9 @@ C:\Windows\System32\tools\python\backup> virtualenv_backup\Scripts\activate.bat
 
 (virtualenv_backup) C:\Windows\System32\tools\python\backup> backuppy.exe -s "C:/tally erp/data" -d C:/tally_backup/data
 
-
+##################
+# How to create installer with Inno
+https://www.youtube.com/watch?v=wW3NUAUZhnY&ab_channel=Memos
 
 
 
